@@ -18,3 +18,6 @@ print("¿cuantas patas tiene la",lola,"?", patas)
 
 # Funciones del sistema
 print(len(lola)) #cuenta las letras del texto del string
+
+ia = "florencia"
+print(len(ia))

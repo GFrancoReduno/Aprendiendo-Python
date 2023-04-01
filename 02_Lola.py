@@ -9,7 +9,7 @@ print(lola)
 nombre, apellido, alias, edad = "Lola", "Reduno", "pelada pompín", 8
 print("Mi perra se llama", nombre, apellido, "tiene", edad, "años y es mejor conocida como", alias)
 
-"""
+""""
 #input = datos para que uno complete
 
 nombre = input("Cúal es el nombre de mi perra?")
@@ -19,7 +19,6 @@ print(nombre)
 print(edad)
 
 """
-
 #Cambiamos el tipo de valor
 
 nombre = 8
