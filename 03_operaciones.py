@@ -26,6 +26,25 @@ print("Lola" * int(decimal))
 print(3 > 4)
 print(3 < 4)
 print(3 <= 4)
-print(3 >= 4) 
+print(3 >= 3) 
 print(3 == 4)
-print(3 != 4)
+print(3 != 4) 
+print(3 < 4 > 5) #se pueden combinar
+
+print("AAAA" > "aaaa") #ordenacion alfabetica por ASCII
+print("Lola" < "Perro")
+print("Lola" >= "Perro")
+print("Lola" <= "Perro")
+print("Lola" == "Perro")
+print("Lola" != "Perro")
+
+#Operadores logicos
+
+print(3 > 4 and "Florencia" > "Lola") # el "AND" es un "y" en este caso falso y falso = falso
+print(3 > 4 or "Florencia" > "Lola") # el "OR" es un "O" en este caso es falso o falso = falso
+print(3 < 4 and "Florencia" < "Lola") #verdadero y falso = verdadero
+print(3 < 4 or "Florencia" > "Lola") #verdadero o falso es = verdadero
+print(3 < 4 or ("Florencia" > "Lola" and 4 == 4)) #combinadas primero se resuelve el parentesis entre falso o verdadero que da verdadero y despues se resuelve lo demas y queda verdadero o verdadero = verdadero
+print(not(3 > 4)) #el "NOT" es una negacion en este caso seria falso pero lo convierte en verdadero xq esta negando
+
+
