@@ -20,3 +20,12 @@ print("Lola" * (2 ** 3)) #se repite el string por la cantidad resultante de la p
 
 decimal = 2.5 * 2
 print("Lola" * int(decimal))
+
+#Operadores comparativos
+
+print(3 > 4)
+print(3 < 4)
+print(3 <= 4)
+print(3 >= 4) 
+print(3 == 4)
+print(3 != 4)
