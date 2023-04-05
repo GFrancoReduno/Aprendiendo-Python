@@ -18,5 +18,5 @@ print(my_tuple.index("Parka"))
 #my_tuple[1] = 1.83 NO SE PUEDE MODIFICAR LOS OBJETOS DENTRO DE LA TUPLA
 
 my_sum_tuple = my_tuple + my_other_tuple #se pueden sumar
-print(my_sum_tuple) 
+print(my_sum_tuple)
 
