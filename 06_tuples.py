@@ -20,3 +20,20 @@ print(my_tuple.index("Parka"))
 my_sum_tuple = my_tuple + my_other_tuple #se pueden sumar
 print(my_sum_tuple)
 
+print(my_sum_tuple[3:6])
+
+my_tuple = list(my_tuple)  #se pueden realizar cambios en la tupla transformandola en lista
+print(type(my_tuple))
+
+my_tuple [2] = "Florencia"
+my_tuple.insert(3, "Lola")
+my_tuple = tuple(my_tuple)
+print(my_tuple)
+print(type(my_tuple)) #volvemos a transformar en tuple y se vuelve inmutable
+
+#del my_tuple[2] #TypeError: 'tuple' object doesn't support item deletion
+
+del my_tuple 
+#print(my_tuple) #NameError: name 'my_tuple' is not defined
+
+
