@@ -25,3 +25,5 @@ print (type(True)) #tipo 'bool'
 
 print(type(print("es una funcion"))) #tipo 'NoneType'
 
+
+

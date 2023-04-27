@@ -21,3 +21,4 @@ print(len(lola)) #cuenta las letras del texto del string
 
 ia = "florencia"
 print(len(ia))
+
